@@ -6,4 +6,12 @@ public class Square {
     Square(double a) {
         this.a = a;
     }
+
+    double calculatePerimeter() {
+        return 4 * a;
+    }
+
+    double calculateArea() {
+        return a * a;
+    }
 }

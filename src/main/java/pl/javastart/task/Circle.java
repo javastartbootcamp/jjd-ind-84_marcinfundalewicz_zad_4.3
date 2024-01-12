@@ -6,4 +6,12 @@ public class Circle {
     Circle(double r) {
         this.r = r;
     }
+
+    double calculateArea() {
+        return Math.PI * r * r;
+    }
+
+    double calculatePerimeter() {
+        return 2 * Math.PI * r;
+    }
 }
